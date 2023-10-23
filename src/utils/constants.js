@@ -7,8 +7,8 @@ import backend from "../images/backend.png";
 import azureFundamentalsCert from "../images/azureFundamentals.png";
 import devopsfundamentalCert from "../images/devopsFundamental.png";
 import kubernetesCert from "../images/certifiedkubernetesadmincourse.png";
-import terraformCert from "../images/terraform basic course.png";
-import dockerCert from "../images/Docker Course.png";
+import terraformCert from "../images/terraformbasiccourse.png";
+import dockerCert from "../images/DockerCourse.png";
 import linkedInLogo from "../images/linkedinLogo.png";
 import kodeKloudLogo from "../images/kodekloudLogo.jpeg";
 export const experiences = [
@@ -109,6 +109,14 @@ export const services = [
 
 export const certification = [
   {
+    name: "Microsoft Azure fundamentals",
+    image: azureFundamentalsCert,
+    issuingOrganization: "Microsoft",
+    url: "https://www.credly.com/badges/e73ae53d-9a9e-4835-86a1-5c3254146c73?source=linked_in_profile",
+    date: "Feb 2023",
+    logo: azureFundamentalsCert,
+  },
+  {
     name: "Devops Fundamentals",
     image: devopsfundamentalCert,
     issuingOrganization: "LinkedIn",
@@ -123,14 +131,6 @@ export const certification = [
     url: "",
     date: "January 2023",
     logo: kodeKloudLogo,
-  },
-  {
-    name: "Microsoft Azure fundamentals",
-    image: azureFundamentalsCert,
-    issuingOrganization: "Microsoft",
-    url: "https://www.credly.com/badges/e73ae53d-9a9e-4835-86a1-5c3254146c73?source=linked_in_profile",
-    date: "Feb 2023",
-    logo: azureFundamentalsCert,
   },
   {
     name: "Kubernetes Administrator",
