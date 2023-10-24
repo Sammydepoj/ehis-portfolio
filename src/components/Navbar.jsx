@@ -4,6 +4,13 @@ import { navLinks } from "../utils/constants";
 import menu from "../images/menu.svg";
 import close from "../images/close.svg";
 import Logo from "../images/logo.jfif";
+import { Link } from "react-router-dom";
+import {
+  LinkedinOutlined,
+  MediumOutlined,
+  TwitterOutlined,
+  GithubOutlined,
+} from "@ant-design/icons";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -24,6 +31,25 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const data = [
+    {
+      img: <LinkedinOutlined />,
+      url: "https://www.linkedin.com/in/ehis-iribhogbe/",
+    },
+    {
+      img: <MediumOutlined />,
+      url: "https://medium.com/@ehisjude420",
+    },
+    {
+      img: <TwitterOutlined />,
+      url: "https://twitter.com/its_ehis",
+    },
+    {
+      img: <GithubOutlined />,
+      url: "https://github.com/ehis0075",
+    },
+  ];
 
   return (
     <nav
@@ -90,6 +116,13 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+      <div className="flex gap-10 text-2xl">
+        {data.map((x, i) => (
+          <Link to={x.url} target="_blank">
+            {x.img}
+          </Link>
+        ))}
+      </div>
       </div>
     </nav>
   );

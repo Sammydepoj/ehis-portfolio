@@ -61,10 +61,10 @@ export const experiences = [
 
 export const education = [
   {
-    course: "Bsc., Physics",
+    course: "BSc. Physics",
     school: "University of Lagos, Yaba",
     location: "Lagos, Nigeria",
-    type: "Full time",
+    // type: "Full time",
     date: "November  2017",
   },
 ];
@@ -90,9 +90,17 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "project",
+    title: "Project",
+  },
 ];
 
 export const services = [
+  {
+    title: "Channels integration Engineer",
+    icon: backend,
+  },
   {
     title: "Java Backend Engineer",
     icon: web,

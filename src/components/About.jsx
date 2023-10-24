@@ -20,10 +20,10 @@ const About = () => {
           About me
         </h1>
         <p className="text-justify leading-loose text-[#c4c4c4]">
-          I am a Highly skilled Java Backend Engineer with 3+ years of experience
-          and a strong technical expertise in software development. Proficient
-          in utilizing programming languages and frameworks, database
-          management, DevOps, and messaging and streaming technologies to design
+          I am a Highly skilled Java Backend Engineer with four (4) years of
+          working experience in the financial technology industry and a strong
+          technical expertise in software development. Proficient in utilizing
+          database management, DevOps principles, messaging system to design
           scalable systems and applications. An adept problem-solver and
           demonstrate the ability working collaboratively in cross-functional
           teams to deliver high-quality software solutions
@@ -82,9 +82,9 @@ const About = () => {
                 </section>
               </div>
               <div className="flex flex-col items-end gap-3 w-max">
-                <p className="rounded-3xl bg-[#D7FFE0] text-[#018C0F] px-2 md:px-5 text-[0.6rem] md:text-[0.8rem] py-1 w-fit">
+                {/* <p className="rounded-3xl bg-[#D7FFE0] text-[#018C0F] px-2 md:px-5 text-[0.6rem] md:text-[0.8rem] py-1 w-fit">
                   {item.type}
-                </p>
+                </p> */}
                 <p className="flex items-center w-max gap-1 text-[0.6rem] md:text-[0.8rem] tracking-widest">
                   <img src={calendar} alt="" /> {item.date}
                 </p>

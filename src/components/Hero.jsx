@@ -11,9 +11,9 @@ const Hero = () => {
       <div className="absolute inset-0 top-[2rem] 3xl:top-[120px] xl:mt-36 px-5 lg:px-0 max-w-7xl justify-between mx-auto flex flex-wrap items-center gap-5 mt-12 md:mt-16">
         <section className="text-[1.5rem] lg:text-[3.6rem] font-bold text-[#f5f5f5] font-[poppins-extrabold] ">
           Hi 👋, <br /> My name is <br />
-          <span className="name">IRIBHOGBE, EHIS JUDE</span>
+          <span className="name">EHIS IRIBHOGBE</span>
           <br />
-          I'm a software engineer
+          I'm a Software Engineer
         </section>
         <section>
           <img

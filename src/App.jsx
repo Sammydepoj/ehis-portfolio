@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import { FloatButton } from "antd";
 import StarsCanvas from "./components/canvas/Stars";
 import Certification from "./components/Certification";
+import Projects from "./components/Projects";
 
 const App = () => {
   useEffect(() => {
@@ -31,6 +32,7 @@ const App = () => {
           <About />
           <Stack />
           <Experience />
+          <Projects />
           <Certification />
           <div className='relative z-0'>
           <Contact />
