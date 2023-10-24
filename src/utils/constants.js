@@ -152,7 +152,7 @@ export const certification = [
     logo: kodeKloudLogo,
   },
   {
-    name: "Kubernetes Administrator",
+    name: "Certified Kubernetes Administrator Course",
     image: kubernetesCert,
     issuingOrganization: "KodeKloud",
     url: "",
