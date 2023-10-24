@@ -11,6 +11,7 @@ import terraformCert from "../images/terraformbasiccourse.png";
 import dockerCert from "../images/DockerCourse.png";
 import linkedInLogo from "../images/linkedinLogo.png";
 import kodeKloudLogo from "../images/kodekloudLogo.jpeg";
+import amb from "../images/amb.jpg"
 export const experiences = [
   {
     title: "Java Backend Engineer",
@@ -28,6 +29,16 @@ export const experiences = [
       " Worked closely with Project Owners, Business Analysts, and Solutions Architects to develop software applications that met 100% of project requirements, demonstrating a commitment to delivering high-quality solutions. ",
 
       "   Provided technical support to both internal teams and external API customers, contributing to increased customer retention and overall satisfaction. ",
+    ],
+  },
+  {
+    title: "Guest Technical Write",
+    company_name: "Ambassador Labs",
+    icon: amb,
+    iconBg: "#383E56",
+    date: "April 2023 - Present",
+    points: [
+      "contributed expertly crafted, informative, and engaging technical content for the Ambassador Labs Blog on a freelance basis, with a deep understanding of various technical subjects and the ability to convey complex information in a clear and accessible manner.",
     ],
   },
   {
